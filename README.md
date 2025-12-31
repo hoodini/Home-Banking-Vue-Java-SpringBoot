@@ -10,6 +10,33 @@ A full-stack home banking application built with **Vue.js 3** and **Spring Boot*
 
 ---
 
+## 🚨 SECURITY NOTICE
+
+⚠️ **IMPORTANT:** A comprehensive security assessment has been conducted on this application. **28 security vulnerabilities** have been identified, including **8 CRITICAL** issues.
+
+**⛔ This application is NOT production-ready in its current state.**
+
+### Security Assessment Documents:
+- 📋 **[SECURITY_README.md](SECURITY_README.md)** - Quick reference guide for stakeholders
+- 📊 **[SECURITY_ASSESSMENT_REPORT.md](SECURITY_ASSESSMENT_REPORT.md)** - Detailed vulnerability analysis
+- 🗺️ **[SECURITY_ROADMAP.md](SECURITY_ROADMAP.md)** - 12-week remediation plan
+
+### Critical Issues Identified:
+1. ❌ CSRF Protection Disabled
+2. ❌ Overly Permissive Access Controls
+3. ❌ Hardcoded Credentials in Version Control
+4. ❌ Missing Authorization Checks (IDOR vulnerabilities)
+5. ❌ No Account Lockout Mechanism
+6. ❌ No Session Timeout Configuration
+7. ❌ Insufficient Security Logging
+8. ❌ Missing Database Encryption
+
+**Production Release Target:** March 31, 2026 (after security remediation)
+
+**Please review the security documentation before using or deploying this application.**
+
+---
+
 ## 📋 Table of Contents
 
 - [About the Project](#about-the-project)
