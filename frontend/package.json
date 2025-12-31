@@ -19,7 +19,7 @@
     "cors-anywhere": "^0.4.4",
     "express": "^4.17.1",
     "register-service-worker": "^1.7.1",
-    "sass": "^1.37.5",
+    "sass": "^1.97.1",
     "sweetalert": "^2.1.2",
     "vue": "^3.0.0",
     "vue-loader-v16": "^16.0.0-beta.5.4",
